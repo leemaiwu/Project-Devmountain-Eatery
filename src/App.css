@@ -1,0 +1,150 @@
+/* --------- This is CSS Reset Code --------- */
+html, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	overflow-x: hidden;
+}
+
+/* --------- Begin your CSS Below here --------- */
+
+body {
+	width: 100vw;
+	min-height: 100vh;
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 50px;
+	gap: 550px;
+	background-color: rgb(214, 112, 34);
+	color: white;
+	font-size: 1.3rem;
+	font-family: sans-serif;
+	font-weight: 300;
+}
+
+.center-header-btn {
+	display: flex;
+	gap: 40px;
+}
+
+.header-btn {
+	background-color: transparent;
+	border: none;
+	color: white;
+	font-size: 1rem;
+}:hover.header-btn {
+	cursor: pointer;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.81);
+}
+
+.banner-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	font-family: sans-serif;
+}
+
+.banner {
+	display: flex;
+	color: white;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+	width: 550px;
+}
+
+.recipe-title {
+	font-size: 2.5rem;
+	margin-top: 12px;
+	margin-bottom: 17px;
+	font-weight: bold;
+	color: rgb(214, 112, 34);
+}
+
+.blue-btn {
+	color: white;
+	background-color: #498e91;
+	border: none;
+	padding: 7px 12px;
+	margin-top: 13px;
+	letter-spacing: 0.3px;
+}:hover.blue-btn {
+	cursor: pointer;
+	background-color: #3e787b;
+}
+
+.row-container {
+	width: 92vw;
+	padding: 50px 50px;
+	display: flex;
+	position: relative;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 30px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+	width: 210px;
+	box-sizing: border-box;
+  	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.435);
+}
+
+.footer {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	/* position: relative; */
+	/* bottom: 0px; */
+	background-color: rgb(59, 59, 59);
+	color: white;
+	gap: 830px;
+	width: 100vw;
+	height: 115px;
+	font-size: 1rem;
+	font-family: sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.2px;
+}
+
+.social-icons {
+	display: flex;
+	margin-left: 8px;
+	margin-top: 8px;
+	gap: 13px;
+}
+
+.individual-icons {
+	background-color: #498e91;
+	border-radius: 50px;
+	padding: 7px;
+}:hover.individual-icons {
+	cursor: pointer;
+	background-color: #3e787b;
+}

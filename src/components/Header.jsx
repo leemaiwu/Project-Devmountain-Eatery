@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <header>
-      <h2>Devmountain Eatery</h2>
+      <Link to='/' style={{color: 'white', textDecoration: 'none'}}>
+        <h2>Devmountain Eatery</h2>
+      </Link>
       <nav>
         <div className="center-header-btn" >
           <Link to='/'>
@@ -16,7 +18,7 @@ const Header = () => {
         </div>
       </nav>
     </header>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

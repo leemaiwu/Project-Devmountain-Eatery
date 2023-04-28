@@ -23,7 +23,7 @@ Devmountain Eatery showcases a variety of dishes and allows users to access reci
 
 ## API
 
-The recipes are displayed from [Devmountain's API](https://recipes.devmountain.com/).
+The recipes are displayed from Devmountain's [recipe API](https://recipes.devmountain.com/).
 
 ## Author
 

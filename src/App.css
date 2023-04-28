@@ -5,8 +5,8 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
+dl, dt, dd, ol,
+fieldset, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, header, hgroup, 
@@ -34,7 +34,7 @@ body {
     width: 15px;
     min-height: 10px;
   }
-  
+
   ::-webkit-scrollbar-thumb {
     /* background: rgb(128, 128, 128); */
 	background-color: #ffffff3f;
@@ -42,7 +42,7 @@ body {
 		inset -3px -1px 10px rgba(0, 0, 0, 0.408),
 		inset 1px 1px 10px rgba(255, 255, 255, 0.397); */
   }
-  
+
   ::-webkit-scrollbar-track {
 	background: rgba(0, 0, 0, 0.8);
   }
@@ -201,12 +201,11 @@ header {
 	letter-spacing: 0.5px;
 }
 
-/* -----------------------
+/* ----------------------- */
 
 .form {
-	width: 390px;
-	background-color: #498e91;
-} */
+	padding-bottom: 140px;
+}
 
 .add-title {
 	display: flex;
@@ -285,9 +284,9 @@ header {
 	flex-flow: column wrap;
 	font-size: 1.2rem;
 	justify-content: flex-start;
-	width: 390px;
 	padding: 15px 0px;
 	gap: 12px;
+	width: 195px;
 }
 
 .input-four {
@@ -297,6 +296,12 @@ header {
 	font-size: 1rem;
 	border: 1px solid rgb(141, 141, 141);
 	border-radius: 3px;
+}
+
+.add-list {
+	box-sizing: border-box;
+	width: 195px;
+	font-weight: 300;
 }
 
 .btn-container{

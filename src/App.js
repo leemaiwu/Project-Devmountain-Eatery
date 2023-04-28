@@ -1,11 +1,11 @@
-import "./App.css"
-import Footer from "./components/Footer"
-import Header from "./components/Header"
-import { Route, Routes } from "react-router-dom"
+import "./App.css";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import { Route, Routes } from "react-router-dom";
 
-import HomeScreen from './components/homeComponents/HomeScreen'
-import NewRecipeScreen from './components/newRecipeComponents/NewRecipeScreen'
-import DetailScreen from './components/detailComponents/DetailScreen'
+import HomeScreen from "./components/homeComponents/HomeScreen";
+import NewRecipeScreen from "./components/newRecipeComponents/NewRecipeScreen";
+import DetailScreen from "./components/detailComponents/DetailScreen";
 
 function App() {
   return (
@@ -13,12 +13,12 @@ function App() {
       <Header />
       <Routes>
         <Route index element={<HomeScreen />} />
-        <Route path='/recipe' element={<NewRecipeScreen />} />
-        <Route path='/recipes/:id' element={<DetailScreen />} />
+        <Route path="/recipe" element={<NewRecipeScreen />} />
+        <Route path="/recipes/:id" element={<DetailScreen />} />
       </Routes>
-        <Footer />
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

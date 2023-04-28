@@ -201,6 +201,154 @@ header {
 	letter-spacing: 0.5px;
 }
 
+/* -----------------------
+
+.form {
+	width: 390px;
+	background-color: #498e91;
+} */
+
+.add-title {
+	display: flex;
+	justify-content: center;
+	font-size: 1.80rem;
+	font-weight: 300;
+	padding: 32px;
+}
+
+.add-input {
+	display: flex;
+	font-size: 1.2rem;
+	justify-content: center;
+	gap: 30px;
+}
+
+.input-one {
+	height: 23px;
+	width: 158px;
+	padding: 5px 10px;
+	font-size: 1rem;
+	border: 1px solid rgb(141, 141, 141);
+	border-radius: 3px;
+}
+
+.radio-input {
+	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: center;
+	padding: 20px;
+	gap: 35px;
+	font-size: 1.2rem;
+	font-weight: 300;
+}
+
+.radio-card {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	align-items: center;
+	gap: 5px;
+}
+
+.input-two {
+	height: 30px;
+	width: 30px;
+}:hover.input-two {
+	cursor: pointer;
+}
+
+.add-input-three {
+	display: flex;
+	font-size: 1.2rem;
+	justify-content: center;
+	gap: 12px;
+}
+
+.input-three {
+	height: 23px;
+	width: 100px;
+	padding: 5px 10px;
+	font-size: 1rem;
+	border: 1px solid rgb(141, 141, 141);
+	border-radius: 3px;
+}
+
+.add-input-four-container {
+	display: flex;
+	justify-content: center;
+}
+
+.add-input-four {
+	display: flex;
+	flex-flow: column wrap;
+	font-size: 1.2rem;
+	justify-content: flex-start;
+	width: 390px;
+	padding: 15px 0px;
+	gap: 12px;
+}
+
+.input-four {
+	height: 23px;
+	width: 158px;
+	padding: 5px 10px;
+	font-size: 1rem;
+	border: 1px solid rgb(141, 141, 141);
+	border-radius: 3px;
+}
+
+.btn-container{
+	display: flex;
+	justify-content: center;
+}
+
+.add-btn {
+	box-sizing: border-box;
+	font-size: 0.95rem;
+	height: 32px;
+	width: 120px;
+	background-color: rgb(219, 117, 40);
+	color: white;
+	border: none;
+}:hover.add-btn {
+	cursor: pointer;
+	background-color: rgb(221, 136, 70);
+}
+
+.text-box-container {
+	display: flex;
+	justify-content: center;
+}
+
+.text-box {
+	box-sizing: border-box;
+	width: 390px;
+	height: 130px;
+	margin: 12px 0px;
+	font: inherit;
+	padding: 5px;
+}
+
+.save-container{
+	display: flex;
+	justify-content: center;
+}
+
+.save-btn {
+	box-sizing: border-box;
+	font-size: 0.95rem;
+	height: 32px;
+	width: 120px;
+	background-color: #498e91;
+	color: white;
+	border: none;
+}:hover.save-btn {
+	cursor: pointer;
+	background-color: #55abb0;
+}
+
 .card {
 	display: flex;
 	flex-direction: column;

@@ -30,6 +30,23 @@ body {
 	min-height: 100vh;
 }
 
+::-webkit-scrollbar {
+    width: 15px;
+    min-height: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    /* background: rgb(128, 128, 128); */
+	background-color: #ffffff3f;
+	/* box-shadow: 
+		inset -3px -1px 10px rgba(0, 0, 0, 0.408),
+		inset 1px 1px 10px rgba(255, 255, 255, 0.397); */
+  }
+  
+  ::-webkit-scrollbar-track {
+	background: rgba(0, 0, 0, 0.8);
+  }
+
 header {
 	display: flex;
 	justify-content: space-between;
@@ -83,19 +100,26 @@ header {
 
 .search-container {
 	display: flex;
-	justify-content: center;
-	margin: 30px;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 30px auto;
+	box-sizing: border-box;
+	border-radius: 20px;
+	background-color: rgba(255, 201, 169, 0.522);
+	padding: 0px 4px 0px 5px;
+	height: 30px;
+	width: 300px;
 }
 
 .search-field {
-	height: 30px;
-	width: 300px;
-	border-radius: 20px;
-	padding: 0px 0px 0px 30px;
-	background-color: rgba(255, 201, 169, 0.522);
+	padding: 0px 0px 0px 5px;
+	width: 245px;
+	background-color: transparent;
 	border: none;
 	font-size: 1rem;
 	color: rgb(85, 85, 85);
+}:focus.search-field {
+	outline: none;
 }
 
 .recipe-title {
@@ -104,6 +128,16 @@ header {
 	margin-bottom: 17px;
 	font-weight: bold;
 	color: rgb(219, 117, 40);
+}
+
+.detail-card {
+	display: flex;
+	flex-direction: column;
+	box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.435);
+	box-sizing: border-box;
+	border-radius: 3px;
+	width: 300px;
+	padding: 10px;
 }
 
 .blue-btn {
@@ -131,6 +165,40 @@ header {
 	align-items: center;
 	gap: 30px;
 	padding-bottom: 140px;
+}
+
+.detail-container {
+	width: 100vw;
+	height: fit-content;
+	display: flex;
+	position: relative;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 80px;
+	padding-bottom: 140px;
+}
+
+.detail-title {
+	display: flex;
+	font-size: 1.5rem;
+	font-weight: 300;
+	justify-content: center;
+	padding: 10px;
+}
+
+.detail-body {
+	font-size: .75rem;
+	font-weight: 300;
+	padding: 3px;
+}
+
+.detail-instruction{
+	font-size: .85rem;
+	font-weight: 300;
+	padding: 3px;
+	letter-spacing: 0.5px;
 }
 
 .card {

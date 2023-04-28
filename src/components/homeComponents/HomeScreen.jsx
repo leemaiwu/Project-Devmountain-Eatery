@@ -40,7 +40,7 @@ const HomeScreen = () => {
     <div>
         <AdBanner />
         <span className='search-container' >
-          <BiSearchAlt2 size='1.75em' color='#DA7635' />
+          <BiSearchAlt2 size='1.50em' color='#DA7635' />
           <input type='text' placeholder='Search for a Recipe' className='search-field' onChange={searchHandler} />
         </span>
         <div className='row-container'>
